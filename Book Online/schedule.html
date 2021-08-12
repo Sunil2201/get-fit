@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/b0715e58c9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Gym landing page</title>
+</head>
+<body>
+    <nav id = "navbar">
+        <a href="../index.html" class="logo">
+            <img src="../Logo.png" alt="Logo of Gym landing page">
+        </a>
+        <ul class = "menu" >
+       
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#instructor">Instructors</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../Plans and Pricing/plans.html">Plans & Pricing</a></li>
+            <li><a href="../Book Online/bookOnline.html">Book Online</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+
+        </ul>
+        <a href="../login.html">
+            <div class="login">
+            <span style = color:#0084ff><i class="fas fa-user-circle i fa-2x" ></i></span>
+         
+            <h1>    </h1>
+            <a href="../login.html">
+                Log In
+            </a>
+            </div>
+        </a>
+        <span style = color:black>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x"></i></a>
+             <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+        </span>
+    </nav>
+    <section id="scheduleHeading">
+        <a href="./bookOnline.html"><div class="goBack"><i class="fas fa-chevron-left fa-2x"></i><p>Back</p></div></a>
+        <h1>Schedule Online</h1>
+    </section>
+    <section id="schedulemain">
+        
+        <div class="calendar">
+            <input type="date" id="today" >
+        </div>
+        <div class="navigate">
+            <div class="left"><i class="fas fa-chevron-left"></i></div>    
+            <div class="right"><i class="fas fa-chevron-right"></i></div>    
+        </div>
+        <div class="book">
+            <h1>Core Fitness</h1>
+            <p>$20</p>
+            <button class="alertBtn">Next</button>
+        </div>
+    </section>
+    <section id="grayline">
+
+    </section>
+    <footer>
+        <div class="copyright">
+            &#169; 2021 by Get-Fit Fitness. Proudly created by Sunil Ballani
+        </div>
+        <div class="mail-list">
+            <h4>Join our mailing list</h4>
+            <form action="none">
+                <input type="text" id="email-list" name="email" placeholder="Enter your email here*">
+            </form>
+            <button class="btn">Subscribe now</button>
+        </div>
+    </footer>
+   <script src="./app.js"></script>
+</body>
+</html>
